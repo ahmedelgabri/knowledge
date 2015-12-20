@@ -5,7 +5,7 @@ $ brew leaves
 ```
 
 
-# List all the software with it's dependencies
+# List all the software with its dependencies
 
 ```sh
 $ brew deps --installed [--tree]
