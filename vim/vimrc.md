@@ -20,3 +20,21 @@ let fgcolor=synIDattr(synIDtrans(hlID("Normal")), "fg", "gui")
                                         |           |_ fg/bg
                                         |_ group name
 ```
+
+## Shared vim info between vim instances
+
+In `vim` it's called `viminfo`, for `neovim` it's called _shared data_ `ShaDa`.
+
+See `:h viminfo/shada`
+
+## Timetravel
+
+`:h earlier/later`
+
+## Text alignment
+
+`%` means the whole file, you might not need it
+
+`:%ri(ght)`
+`:%ce(nter)`
+`:%le(ft)`

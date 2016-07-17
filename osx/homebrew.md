@@ -10,3 +10,10 @@ $ brew leaves
 ```sh
 $ brew deps --installed [--tree]
 ```
+
+
+# Edit/Check a formula
+
+```sh
+$ brew edit <formula>
+```
