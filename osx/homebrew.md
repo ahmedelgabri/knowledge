@@ -17,3 +17,11 @@ $ brew deps --installed [--tree]
 ```sh
 $ brew edit <formula>
 ```
+
+# Generate a `Brewfile`
+
+```sh
+$ brew bundle dump
+```
+
+[source](https://twitter.com/fnando/status/801293704686342144)
