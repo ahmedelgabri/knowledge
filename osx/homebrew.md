@@ -25,3 +25,9 @@ $ brew bundle dump
 ```
 
 [source](https://twitter.com/fnando/status/801293704686342144)
+
+# List files for a package
+
+```sh
+$ brew list <package name>
+```

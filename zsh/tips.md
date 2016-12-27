@@ -15,3 +15,17 @@ $ mv .zsh_history .zsh_history_bad
 $ strings .zsh_history_bad > .zsh_history
 $ fc -R .zsh_history
 ```
+
+## Get the last running command
+
+```sh
+$ fc -ln -1
+```
+
+## Check for a command
+
+```zsh
+if command -v <command> >/dev/null; then
+ # Do something
+fi
+```
