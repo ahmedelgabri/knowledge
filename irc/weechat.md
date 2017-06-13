@@ -15,3 +15,14 @@ For example `irc`
 ```
 
 Running `/secure` alone will list all info regarding secured data.
+
+
+---
+
+# Save layout & autojoin (requires autojoin plugin)
+
+```
+/autojoin --run // to store the channels to join
+/layout store // to store the order of the channels
+/save // to save your settings to a file
+```
