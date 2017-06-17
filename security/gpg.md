@@ -42,3 +42,8 @@ gpg> save
 ```sh
 $ gpg --armor --export <key>
 ```
+
+### Important resources
+- https://alexcabal.com/creating-the-perfect-gpg-keypair/
+- https://ekaia.org/blog/2009/05/10/creating-new-gpgkey/
+- https://wiki.debian.org/Subkeys
