@@ -2,4 +2,4 @@
 
 ### Useful Links
 - [https://wincent.com/wiki](https://wincent.com/wiki)
-- [http://ricostacruz.com/cheatsheets/](http://ricostacruz.com/cheatsheets/)
+- [https://devhints.io/](https://devhints.io/)
