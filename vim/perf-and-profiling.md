@@ -1,4 +1,12 @@
-# Profiling startup time
+# Profiling
+
+```
+[n]vim --cmd 'profile start /tmp/profile.log' --cmd 'profile func *' --cmd 'profile file *'
+```
+
+## Startup time
+
+> `--startuptime` is not [always accurate](https://github.com/neovim/neovim/issues/7348#issuecomment-333398166), prefer profile instead
 
 Start vim with `--startuptime`, this command will output the startuptime data in `/tmp/vim/log` & open the file too in the same time.
 
