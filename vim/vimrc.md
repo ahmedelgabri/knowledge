@@ -38,3 +38,11 @@ See `:h viminfo/shada`
 `:%ri(ght)`
 `:%ce(nter)`
 `:%le(ft)`
+
+## Search for a file in a tree
+
+Will search `CWD` for `<FILENAME>` & keep going up until it finds it/or not
+
+```vim
+findfile('<FILENAME>', expand('%:p').';')
+```
