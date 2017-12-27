@@ -35,9 +35,7 @@ See `:h viminfo/shada`
 
 `%` means the whole file, you might not need it
 
-`:%ri(ght)`
-`:%ce(nter)`
-`:%le(ft)`
+`:%ri(ght)` `:%ce(nter)` `:%le(ft)`
 
 ## Search for a file in a tree
 
@@ -45,4 +43,20 @@ Will search `CWD` for `<FILENAME>` & keep going up until it finds it/or not
 
 ```vim
 findfile('<FILENAME>', expand('%:p').';')
+```
+
+## Setting an option using a variable
+
+Lets say you have `g:FOO_BAR` that you want to use to set a variable, you have two options
+
+Option 1:
+
+```vim
+let &option = g:FOO_BAR . 'something'
+```
+
+Option 2:
+
+```vim
+execute 'set option=' . g:FOO_BAR . 'something'
 ```
