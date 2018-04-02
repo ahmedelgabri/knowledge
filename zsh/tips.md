@@ -42,3 +42,9 @@ if command -v <command> >/dev/null; then
  # Do something
 fi
 ```
+
+## List all available options
+
+```sh
+$ set -o
+```
