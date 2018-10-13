@@ -9,6 +9,12 @@ highlight <group> cterm=X ctermfg=X ctermbg=X gui=X guifg=X guibg=x
 ## List all the highlight groups
 
 ```viml
+:hi[ghlight]
+```
+
+## List all syntax groups
+
+```viml
 :syntax
 ```
 
@@ -47,7 +53,8 @@ findfile('<FILENAME>', expand('%:p').';')
 
 ## Setting an option using a variable
 
-Lets say you have `g:FOO_BAR` that you want to use to set a variable, you have two options
+Lets say you have `g:FOO_BAR` that you want to use to set a variable, you have
+two options
 
 Option 1:
 

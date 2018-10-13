@@ -1,23 +1,32 @@
 ## Change zsh config directory
 
-By providing setting `$ZDOTDIR` you can change the main zsh config directory to use instead of
-`$HOME`, this can be done by setting `$ZDOTDIR` in `~/.zshenv`
+By providing setting `$ZDOTDIR` you can change the main zsh config directory to
+use instead of `$HOME`, this can be done by setting `$ZDOTDIR` in `~/.zshenv`
 
 ```zsh
 ZDOTDIR=~/my/config/path
 ```
 
-Now you can put `.zshrc`, `.zprofile`, etc... inside `~/my/config/path` and everything will work as
-expected.
+Now you can put `.zshrc`, `.zprofile`, etc... inside `~/my/config/path` and
+everything will work as expected.
 
 ## Override an interactive alias
 
-if you have `rm` to be aliased to `rm -i` _which you should anyway_ & you want to use `rm` in a
-script for example without the interactivity. you can do this by prepending `\` to the alias.
+if you have `rm` to be aliased to `rm -i` _which you should anyway_ & you want
+to use `rm` in a script for example without the interactivity. you can do this
+by prepending `\` to the alias.
 
 ```zsh
 function foo() {
     \rm path/to/file
+}
+```
+
+or
+
+```zsh
+function foo() {
+    command rm path/to/file
 }
 ```
 

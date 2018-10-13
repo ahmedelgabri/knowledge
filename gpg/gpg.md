@@ -22,8 +22,6 @@ gpg> trust
 Your decision? 5
 Do you really want to set this key to ultimate trust? (y/N) y
 gpg> save
-
-$
 ```
 
 ## Set a primary uid
@@ -44,6 +42,7 @@ $ gpg --armor --export <key>
 ```
 
 ### Important resources
+
 - https://alexcabal.com/creating-the-perfect-gpg-keypair/
 - https://ekaia.org/blog/2009/05/10/creating-new-gpgkey/
 - https://wiki.debian.org/Subkeys

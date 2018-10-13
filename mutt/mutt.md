@@ -11,3 +11,9 @@ $ neomutt -d 2
 ```
 $ neomutt -DS
 ```
+
+## Check an option
+
+```
+:set ?<option>
+```
